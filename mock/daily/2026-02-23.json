@@ -1,0 +1,62 @@
+{
+  "date": "2026-02-23",
+  "platforms": {
+    "youtube": {
+      "subscribers_total": 2901,
+      "subscribers_gained": 22,
+      "views": 3412,
+      "watch_hours": 156.8,
+      "impressions": 24500,
+      "ctr": 0.068,
+      "avg_view_duration": 185,
+      "likes": 267,
+      "comments": 48,
+      "top_video": {
+        "title": "5 Claude Features Most People Don't Know About",
+        "views": 1890,
+        "watch_time": 89.1
+      }
+    },
+    "linkedin": {
+      "followers_total": 4371,
+      "followers_gained": 19,
+      "impressions": 9870,
+      "engagements": 512,
+      "engagement_rate": 0.052,
+      "reactions": 367,
+      "comments": 78,
+      "shares": 41,
+      "profile_views": 201
+    },
+    "instagram": {
+      "followers_total": 1565,
+      "followers_gained": 17,
+      "impressions": 7890,
+      "reach": 5670,
+      "engagements": 612,
+      "engagement_rate": 0.078,
+      "likes": 489,
+      "comments": 71,
+      "saves": 52,
+      "stories_views": 701
+    },
+    "beehiiv": {
+      "subscribers_total": 1268,
+      "subscribers_gained": 10,
+      "unsubscribes": 1,
+      "emails_sent": 0,
+      "open_rate": null,
+      "click_rate": null,
+      "web_views": 178
+    },
+    "tiktok": {
+      "followers_total": 367,
+      "followers_gained": 11,
+      "views": 3210,
+      "likes": 245,
+      "comments": 31,
+      "shares": 19,
+      "avg_watch_time": 16.2
+    }
+  }
+}

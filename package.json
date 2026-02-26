@@ -1,0 +1,16 @@
+{
+  "name": "content-analytics-dash",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cross-platform content analytics dashboard",
+  "scripts": {
+    "fetch:daily": "node scripts/fetch-beehiiv.js && node scripts/fetch-youtube.js && node scripts/fetch-linkedin.js && node scripts/fetch-instagram.js",
+    "fetch:beehiiv": "node scripts/fetch-beehiiv.js",
+    "fetch:youtube": "node scripts/fetch-youtube.js",
+    "fetch:linkedin": "node scripts/fetch-linkedin.js",
+    "fetch:instagram": "node scripts/fetch-instagram.js",
+    "generate:weekly": "node scripts/generate-weekly.js",
+    "evaluate:alerts": "node scripts/evaluate-alerts.js",
+    "update:content-log": "node scripts/update-content-log.js"
+  }
+}

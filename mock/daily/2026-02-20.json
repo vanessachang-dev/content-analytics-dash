@@ -1,0 +1,62 @@
+{
+  "date": "2026-02-20",
+  "platforms": {
+    "youtube": {
+      "subscribers_total": 2847,
+      "subscribers_gained": 12,
+      "views": 1834,
+      "watch_hours": 89.2,
+      "impressions": 14200,
+      "ctr": 0.058,
+      "avg_view_duration": 174,
+      "likes": 142,
+      "comments": 23,
+      "top_video": {
+        "title": "How I Use AI to Write a Newsletter in 30 Minutes",
+        "views": 612,
+        "watch_time": 31.4
+      }
+    },
+    "linkedin": {
+      "followers_total": 4312,
+      "followers_gained": 18,
+      "impressions": 8920,
+      "engagements": 445,
+      "engagement_rate": 0.050,
+      "reactions": 312,
+      "comments": 67,
+      "shares": 34,
+      "profile_views": 189
+    },
+    "instagram": {
+      "followers_total": 1523,
+      "followers_gained": 8,
+      "impressions": 4210,
+      "reach": 3180,
+      "engagements": 287,
+      "engagement_rate": 0.068,
+      "likes": 234,
+      "comments": 31,
+      "saves": 22,
+      "stories_views": 412
+    },
+    "beehiiv": {
+      "subscribers_total": 1245,
+      "subscribers_gained": 5,
+      "unsubscribes": 1,
+      "emails_sent": 0,
+      "open_rate": null,
+      "click_rate": null,
+      "web_views": 89
+    },
+    "tiktok": {
+      "followers_total": 342,
+      "followers_gained": 3,
+      "views": 892,
+      "likes": 67,
+      "comments": 8,
+      "shares": 4,
+      "avg_watch_time": 12.3
+    }
+  }
+}

@@ -1,0 +1,127 @@
+[
+  {
+    "id": "post-001",
+    "title": "5 Claude Features Most People Don't Know About",
+    "platform": "youtube",
+    "type": "video",
+    "published_at": "2026-02-20T15:00:00Z",
+    "url": "https://youtube.com/watch?v=mock1",
+    "latest": {
+      "views": 8920,
+      "likes": 712,
+      "comments": 134,
+      "shares": 89,
+      "watch_hours": 432.1,
+      "avg_view_duration": 194
+    },
+    "snapshots": {
+      "24h": { "captured_at": "2026-02-21T15:00:00Z", "views": 612, "likes": 48, "comments": 12 },
+      "7d": null,
+      "30d": null
+    }
+  },
+  {
+    "id": "post-002",
+    "title": "I Built an AI Dashboard in One Day — Here's How",
+    "platform": "youtube",
+    "type": "video",
+    "published_at": "2026-02-24T14:00:00Z",
+    "url": "https://youtube.com/watch?v=mock2",
+    "latest": {
+      "views": 8350,
+      "likes": 623,
+      "comments": 118,
+      "shares": 72,
+      "watch_hours": 402.4,
+      "avg_view_duration": 198
+    },
+    "snapshots": {
+      "24h": { "captured_at": "2026-02-25T14:00:00Z", "views": 4120, "likes": 312, "comments": 62 },
+      "7d": null,
+      "30d": null
+    }
+  },
+  {
+    "id": "post-003",
+    "title": "The AI features hiding in plain sight",
+    "platform": "beehiiv",
+    "type": "newsletter",
+    "published_at": "2026-02-22T11:00:00Z",
+    "url": "https://newsletter.example.com/ai-features-hiding",
+    "latest": {
+      "opens": 607,
+      "open_rate": 0.482,
+      "clicks": 84,
+      "click_rate": 0.067,
+      "unsubscribes": 2,
+      "web_views": 234
+    },
+    "snapshots": {
+      "24h": { "captured_at": "2026-02-23T11:00:00Z", "opens": 523, "open_rate": 0.415, "clicks": 71 },
+      "7d": null,
+      "30d": null
+    }
+  },
+  {
+    "id": "post-004",
+    "title": "Why I'm building in public with AI",
+    "platform": "linkedin",
+    "type": "post",
+    "published_at": "2026-02-24T09:30:00Z",
+    "url": "https://linkedin.com/posts/mock4",
+    "latest": {
+      "impressions": 15670,
+      "reactions": 623,
+      "comments": 134,
+      "shares": 78,
+      "engagement_rate": 0.057
+    },
+    "snapshots": {
+      "24h": { "captured_at": "2026-02-25T09:30:00Z", "impressions": 8920, "reactions": 412, "comments": 89 },
+      "7d": null,
+      "30d": null
+    }
+  },
+  {
+    "id": "post-005",
+    "title": "3 AI tools that replaced my entire tech stack",
+    "platform": "instagram",
+    "type": "carousel",
+    "published_at": "2026-02-23T12:00:00Z",
+    "url": "https://instagram.com/p/mock5",
+    "latest": {
+      "impressions": 7890,
+      "reach": 5670,
+      "likes": 489,
+      "comments": 71,
+      "saves": 52,
+      "shares": 28,
+      "engagement_rate": 0.078
+    },
+    "snapshots": {
+      "24h": { "captured_at": "2026-02-24T12:00:00Z", "impressions": 4120, "likes": 267, "comments": 38, "saves": 28 },
+      "7d": null,
+      "30d": null
+    }
+  },
+  {
+    "id": "post-006",
+    "title": "POV: Building a dashboard with Claude in real-time",
+    "platform": "tiktok",
+    "type": "video",
+    "published_at": "2026-02-24T16:00:00Z",
+    "url": "https://tiktok.com/@mock/video/mock6",
+    "latest": {
+      "views": 4567,
+      "likes": 367,
+      "comments": 45,
+      "shares": 28,
+      "avg_watch_time": 17.4
+    },
+    "snapshots": {
+      "24h": { "captured_at": "2026-02-25T16:00:00Z", "views": 2890, "likes": 234, "comments": 28, "shares": 16 },
+      "7d": null,
+      "30d": null
+    }
+  }
+]

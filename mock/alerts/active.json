@@ -1,0 +1,22 @@
+[
+  {
+    "id": "alert-001",
+    "rule_id": "yt-views-milestone",
+    "platform": "youtube",
+    "severity": "critical",
+    "message": "YouTube daily views exceeded 5,000 (6,241)",
+    "triggered_at": "2026-02-25T14:30:00Z",
+    "metric_value": 6241,
+    "acknowledged": false
+  },
+  {
+    "id": "alert-002",
+    "rule_id": "ig-engagement-spike",
+    "platform": "instagram",
+    "severity": "info",
+    "message": "Instagram engagement is 3.2x the 7-day average",
+    "triggered_at": "2026-02-24T09:00:00Z",
+    "metric_value": 3.2,
+    "acknowledged": false
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "alerts": [
+    {
+      "id": "yt-sub-spike",
+      "platform": "youtube",
+      "metric": "subscribers_gained",
+      "condition": "multiplier_gt",
+      "value": 2,
+      "baseline": "7d_avg",
+      "severity": "info",
+      "message": "YouTube subscriber growth is {value}x the 7-day average",
+      "cooldown_hours": 48
+    },
+    {
+      "id": "beehiiv-open-drop",
+      "platform": "beehiiv",
+      "metric": "open_rate",
+      "condition": "lt",
+      "value": 0.35,
+      "severity": "warning",
+      "message": "Newsletter open rate dropped below 35% ({value}%)",
+      "cooldown_hours": 168
+    },
+    {
+      "id": "ig-engagement-spike",
+      "platform": "instagram",
+      "metric": "engagement_rate",
+      "condition": "multiplier_gt",
+      "value": 3,
+      "baseline": "7d_avg",
+      "severity": "info",
+      "message": "Instagram engagement is {value}x the 7-day average"
+    },
+    {
+      "id": "li-impressions-drop",
+      "platform": "linkedin",
+      "metric": "impressions",
+      "condition": "multiplier_lt",
+      "value": 0.5,
+      "baseline": "7d_avg",
+      "severity": "warning",
+      "message": "LinkedIn impressions dropped to {value}x the 7-day average",
+      "cooldown_hours": 72
+    },
+    {
+      "id": "yt-views-milestone",
+      "platform": "youtube",
+      "metric": "views",
+      "condition": "gt",
+      "value": 5000,
+      "severity": "critical",
+      "message": "YouTube daily views exceeded 5,000 ({value})",
+      "cooldown_hours": 24
+    }
+  ]
+}

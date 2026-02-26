@@ -1,0 +1,62 @@
+{
+  "date": "2026-02-26",
+  "platforms": {
+    "youtube": {
+      "subscribers_total": 2978,
+      "subscribers_gained": 20,
+      "views": 3456,
+      "watch_hours": 167.2,
+      "impressions": 26800,
+      "ctr": 0.063,
+      "avg_view_duration": 184,
+      "likes": 278,
+      "comments": 51,
+      "top_video": {
+        "title": "I Built an AI Dashboard in One Day — Here's How",
+        "views": 1890,
+        "watch_time": 91.2
+      }
+    },
+    "linkedin": {
+      "followers_total": 4448,
+      "followers_gained": 23,
+      "impressions": 10340,
+      "engagements": 612,
+      "engagement_rate": 0.059,
+      "reactions": 445,
+      "comments": 87,
+      "shares": 48,
+      "profile_views": 245
+    },
+    "instagram": {
+      "followers_total": 1625,
+      "followers_gained": 17,
+      "impressions": 7650,
+      "reach": 5890,
+      "engagements": 623,
+      "engagement_rate": 0.081,
+      "likes": 498,
+      "comments": 72,
+      "saves": 53,
+      "stories_views": 678
+    },
+    "beehiiv": {
+      "subscribers_total": 1304,
+      "subscribers_gained": 12,
+      "unsubscribes": 1,
+      "emails_sent": 0,
+      "open_rate": null,
+      "click_rate": null,
+      "web_views": 198
+    },
+    "tiktok": {
+      "followers_total": 405,
+      "followers_gained": 11,
+      "views": 2890,
+      "likes": 234,
+      "comments": 28,
+      "shares": 16,
+      "avg_watch_time": 15.9
+    }
+  }
+}

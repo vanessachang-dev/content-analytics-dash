@@ -1,0 +1,296 @@
+/* ============================================
+   View-specific styles
+   ============================================ */
+
+/* --- Snapshot View --- */
+.snapshot__aggregate {
+  margin-bottom: var(--space-8);
+}
+
+.snapshot__platforms {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.snapshot__top-content {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
+  margin-top: var(--space-2);
+}
+
+.snapshot__top-content-title {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-1);
+}
+
+.snapshot__top-content-name {
+  font-weight: var(--font-semibold);
+  font-size: var(--text-sm);
+}
+
+/* --- Weekly View --- */
+.weekly__report {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  margin-bottom: var(--space-6);
+}
+
+.weekly__report-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-4);
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.weekly__report-title {
+  font-size: var(--text-xl);
+  font-weight: var(--font-bold);
+}
+
+.weekly__report-date {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+.weekly__partial-badge {
+  display: inline-block;
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-sm);
+  background: rgba(245, 158, 11, 0.15);
+  color: var(--color-warning);
+  font-size: var(--text-xs);
+  font-weight: var(--font-semibold);
+}
+
+.weekly__highlights {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-bottom: var(--space-6);
+}
+
+.weekly__highlight {
+  display: flex;
+  gap: var(--space-3);
+  padding: var(--space-3);
+  border-radius: var(--radius-md);
+  background: var(--color-bg-secondary);
+}
+
+.weekly__highlight-icon {
+  flex-shrink: 0;
+  font-size: var(--text-lg);
+}
+
+.weekly__highlight-content {
+  flex: 1;
+}
+
+.weekly__highlight-value {
+  font-weight: var(--font-semibold);
+  font-size: var(--text-sm);
+  margin-bottom: var(--space-1);
+}
+
+.weekly__highlight-context {
+  font-size: var(--text-xs);
+  color: var(--color-text-secondary);
+}
+
+.weekly__recommendations {
+  list-style: none;
+}
+
+.weekly__recommendations li {
+  padding: var(--space-2) 0;
+  padding-left: var(--space-6);
+  position: relative;
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+}
+
+.weekly__recommendations li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--color-accent);
+  font-weight: var(--font-bold);
+}
+
+.weekly__scores {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-3);
+}
+
+@media (min-width: 640px) {
+  .weekly__scores {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.weekly__score-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3);
+  background: var(--color-bg-secondary);
+  border-radius: var(--radius-md);
+}
+
+.weekly__score-platform {
+  font-size: var(--text-xs);
+  color: var(--color-text-secondary);
+  text-transform: capitalize;
+}
+
+.weekly__score-note {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+/* --- Platform Deep Dive --- */
+.platform-dive__summary {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-3);
+  margin-bottom: var(--space-6);
+}
+
+@media (min-width: 640px) {
+  .platform-dive__summary {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.platform-dive__charts {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+/* --- Content Log --- */
+.content-log__filters {
+  display: flex;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.content-log__filter {
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-full);
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-secondary);
+  font-size: var(--text-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.content-log__filter:hover {
+  border-color: var(--color-text-muted);
+}
+
+.content-log__filter--active {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+  background: rgba(99, 102, 241, 0.1);
+}
+
+/* Mobile card version of content log */
+.content-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
+  margin-bottom: var(--space-3);
+}
+
+.content-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--space-3);
+  gap: var(--space-2);
+}
+
+.content-card__title {
+  font-weight: var(--font-semibold);
+  font-size: var(--text-sm);
+  line-height: var(--leading-tight);
+}
+
+.content-card__meta {
+  display: flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.content-card__stat {
+  font-size: var(--text-xs);
+  color: var(--color-text-secondary);
+}
+
+.content-card__stat-value {
+  font-weight: var(--font-semibold);
+  color: var(--color-text-primary);
+}
+
+/* --- Week Selector (for weekly view) --- */
+.week-selector {
+  display: flex;
+  gap: var(--space-2);
+  margin-bottom: var(--space-6);
+}
+
+.week-selector__btn {
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-md);
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-secondary);
+  font-size: var(--text-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.week-selector__btn:hover {
+  border-color: var(--color-text-muted);
+}
+
+.week-selector__btn--active {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+  background: rgba(99, 102, 241, 0.1);
+}
+
+/* --- Content Log: responsive table/card toggle --- */
+.content-log__card-view {
+  display: block;
+}
+
+.content-log__table-view {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .content-log__card-view {
+    display: none;
+  }
+
+  .content-log__table-view {
+    display: block;
+  }
+}

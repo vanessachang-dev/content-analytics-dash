@@ -1,0 +1,48 @@
+{
+  "week": "2026-W08",
+  "range": { "start": "2026-02-16", "end": "2026-02-22" },
+  "generated_at": "2026-02-22T20:00:00Z",
+  "summary": "This was a breakout week driven almost entirely by one YouTube video. \"5 Claude Features Most People Don't Know About\" hit the algorithm sweet spot — 65% of the week's YouTube views came from that single video, and it's still climbing. The ripple effect was real: LinkedIn saw a 34% jump in impressions as you cross-posted clips, and Instagram engagement rate hit 7.9%, the highest in 90 days.\n\nNewsletter performance was solid — the Tuesday send pulled a 48.2% open rate and 6.7% click rate, both above your trailing averages. Subject line \"The AI features hiding in plain sight\" clearly resonated with the YouTube audience crossover.\n\nTikTok continues its steady climb. The short-form clips from the Claude video drove 2,341 views on Saturday alone. You're building real momentum on that platform — follower growth was 8x what it was in December.",
+  "highlights": [
+    {
+      "type": "growth",
+      "platform": "youtube",
+      "metric": "views",
+      "value": "14,800 weekly views (+42% WoW)",
+      "context": "Driven by '5 Claude Features' video reaching 1,890 views/day at peak"
+    },
+    {
+      "type": "engagement",
+      "platform": "instagram",
+      "metric": "engagement_rate",
+      "value": "7.9% engagement rate",
+      "context": "Highest in 90 days — carousel posts with AI tips are consistently outperforming"
+    },
+    {
+      "type": "milestone",
+      "platform": "beehiiv",
+      "metric": "subscribers_total",
+      "value": "Crossed 1,250 subscribers",
+      "context": "Net +22 this week. Growth accelerating — was +15/week in January"
+    }
+  ],
+  "concerns": [
+    {
+      "platform": "linkedin",
+      "issue": "Weekend impressions dropped 40% — consider scheduling posts for weekday mornings only",
+      "severity": "low"
+    }
+  ],
+  "recommendations": [
+    "Double down on the 'hidden features' content angle — it's resonating across all platforms",
+    "Create a newsletter series that expands on each Claude feature from the video",
+    "Test posting TikTok clips to Instagram Reels — your IG audience engages heavily with short-form"
+  ],
+  "platform_scores": {
+    "youtube": { "score": 9, "trend": "up", "note": "Breakout week" },
+    "linkedin": { "score": 7, "trend": "stable", "note": "Solid but weekend dips" },
+    "instagram": { "score": 8, "trend": "up", "note": "Engagement rate peak" },
+    "beehiiv": { "score": 7, "trend": "up", "note": "Steady subscriber growth" },
+    "tiktok": { "score": 7, "trend": "up", "note": "Best week yet" }
+  }
+}

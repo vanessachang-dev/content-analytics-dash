@@ -1,0 +1,13 @@
+[
+  {
+    "id": "alert-000",
+    "rule_id": "beehiiv-open-drop",
+    "platform": "beehiiv",
+    "severity": "warning",
+    "message": "Newsletter open rate dropped below 35% (31.2%)",
+    "triggered_at": "2026-02-18T10:00:00Z",
+    "metric_value": 0.312,
+    "acknowledged": true,
+    "resolved_at": "2026-02-19T08:00:00Z"
+  }
+]

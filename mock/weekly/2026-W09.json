@@ -1,0 +1,43 @@
+{
+  "week": "2026-W09",
+  "range": { "start": "2026-02-23", "end": "2026-02-26" },
+  "generated_at": "2026-02-26T20:00:00Z",
+  "partial": true,
+  "summary": "Partial week so far (Mon–Thu), but the momentum from last week is holding. The new video \"I Built an AI Dashboard in One Day\" launched Monday and immediately picked up traction — 4,120 views on day one with a 7.2% CTR, your best launch yet. YouTube subscriber growth hit 33 in a single day (Monday), nearly matching what used to take a full week.\n\nThe cross-platform play is working. LinkedIn is on pace for its best week ever — the \"building in public\" thread about the dashboard got 134 comments on Monday alone. Instagram engagement remains elevated at 8.1%.\n\nNewsletter sent Tuesday pulled a 51.2% open rate — your best since November. The combination of timely content (referencing the dashboard video) and the growing YouTube-to-newsletter funnel is clearly working.",
+  "highlights": [
+    {
+      "type": "growth",
+      "platform": "youtube",
+      "metric": "subscribers_gained",
+      "value": "+97 subscribers in 4 days",
+      "context": "On pace for best week ever — new video launch driving growth"
+    },
+    {
+      "type": "engagement",
+      "platform": "linkedin",
+      "metric": "comments",
+      "value": "134 comments on Monday post",
+      "context": "Building-in-public content resonating strongly with tech audience"
+    },
+    {
+      "type": "performance",
+      "platform": "beehiiv",
+      "metric": "open_rate",
+      "value": "51.2% open rate",
+      "context": "Best since November — YouTube cross-promotion is working"
+    }
+  ],
+  "concerns": [],
+  "recommendations": [
+    "Keep the building-in-public thread going — document the dashboard's evolution",
+    "Consider a follow-up video showing the finished dashboard with real data",
+    "The YouTube → Newsletter funnel is your strongest growth engine right now — optimize the video description CTA"
+  ],
+  "platform_scores": {
+    "youtube": { "score": 10, "trend": "up", "note": "Best launch ever" },
+    "linkedin": { "score": 9, "trend": "up", "note": "Building-in-public is gold" },
+    "instagram": { "score": 8, "trend": "stable", "note": "Sustained high engagement" },
+    "beehiiv": { "score": 9, "trend": "up", "note": "Open rate personal best" },
+    "tiktok": { "score": 7, "trend": "stable", "note": "Steady growth continues" }
+  }
+}
