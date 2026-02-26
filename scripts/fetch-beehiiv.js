@@ -49,22 +49,25 @@ async function beehiivGet(path, params = {}) {
   return res.json();
 }
 
-/** Get total active subscriber count. */
+/** Get total active subscriber count by paginating with max limit. */
 async function getSubscriberCount() {
-  // limit=1 so we only fetch metadata, not actual subscriber data
-  const data = await beehiivGet('/subscriptions', {
-    limit: 1,
-    status: 'active',
-  });
+  // V2 API uses cursor pagination without a total count field.
+  // Paginate with max limit (100) and count results.
+  let total = 0;
+  let cursor = null;
 
-  // Log the actual response keys so we can find the right field
-  console.log(`  [debug] Response keys: ${JSON.stringify(Object.keys(data))}`);
-  console.log(`  [debug] Response (no data array): ${JSON.stringify({ ...data, data: `[${data.data?.length || 0} items]` })}`);
+  while (true) {
+    const params = { limit: 100, status: 'active' };
+    if (cursor) params.cursor = cursor;
 
-  // Try multiple possible field names
-  const count = data.total_results ?? data.totalResults ?? data.total ?? data.count ?? 0;
-  console.log(`  [debug] Subscriber count resolved to: ${count}`);
-  return count;
+    const data = await beehiivGet('/subscriptions', params);
+    total += data.data?.length || 0;
+
+    if (!data.has_more) break;
+    cursor = data.next_cursor;
+  }
+
+  return total;
 }
 
 /** Get the most recent email campaign stats. */
