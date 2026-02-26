@@ -57,17 +57,14 @@ async function getSubscriberCount() {
     status: 'active',
   });
 
-  console.log(`  [debug] Active subscribers: ${data.total_results}`);
+  // Log the actual response keys so we can find the right field
+  console.log(`  [debug] Response keys: ${JSON.stringify(Object.keys(data))}`);
+  console.log(`  [debug] Response (no data array): ${JSON.stringify({ ...data, data: `[${data.data?.length || 0} items]` })}`);
 
-  // If active returns 0, check all statuses to diagnose
-  if (!data.total_results) {
-    const allData = await beehiivGet('/subscriptions', { limit: 1 });
-    console.log(`  [debug] All subscribers (any status): ${allData.total_results}`);
-    // Use the "all" count as fallback — some publications don't use the "active" status
-    return allData.total_results || 0;
-  }
-
-  return data.total_results || 0;
+  // Try multiple possible field names
+  const count = data.total_results ?? data.totalResults ?? data.total ?? data.count ?? 0;
+  console.log(`  [debug] Subscriber count resolved to: ${count}`);
+  return count;
 }
 
 /** Get the most recent email campaign stats. */
