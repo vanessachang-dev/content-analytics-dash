@@ -56,6 +56,17 @@ async function getSubscriberCount() {
     limit: 1,
     status: 'active',
   });
+
+  console.log(`  [debug] Active subscribers: ${data.total_results}`);
+
+  // If active returns 0, check all statuses to diagnose
+  if (!data.total_results) {
+    const allData = await beehiivGet('/subscriptions', { limit: 1 });
+    console.log(`  [debug] All subscribers (any status): ${allData.total_results}`);
+    // Use the "all" count as fallback — some publications don't use the "active" status
+    return allData.total_results || 0;
+  }
+
   return data.total_results || 0;
 }
 
