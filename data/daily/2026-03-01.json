@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-01",
+  "platforms": {
+    "beehiiv": {
+      "subscribers_total": 573,
+      "subscribers_gained": 3,
+      "unsubscribes": 0,
+      "emails_sent": 0,
+      "open_rate": null,
+      "click_rate": null,
+      "web_views": 667,
+      "latest_email": null
+    }
+  }
+}
